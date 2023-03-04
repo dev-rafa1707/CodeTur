@@ -20,8 +20,8 @@ app.get("/dubai",(req,res)=>{
     res.sendFile(__dirname+"/dubai.html")
 })
 
-app.get("/fernando",(req,res)=>{
-    res.sendFile(__dirname+"/fernando.html")
+app.get("/natal",(req,res)=>{
+    res.sendFile(__dirname+"/natal.html")
 })
 
 app.get("/machu",(req,res)=>{

@@ -33,7 +33,7 @@ function calculaPacoteDubai() {
     p.innerHTML = 'Valor do seu pacote R$: ' + valor
 }
 
-function calculaPacoteFernando() {
+function calculaPacoteNatal() {
     let passagemAdulto = 950
     let passagemKids = 720
     let diaria = 350
