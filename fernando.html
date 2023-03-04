@@ -29,10 +29,20 @@
         <div class="row">
             <div class="column">
                 <h1>Fernando de Noronha</h1>
-                <p>Aproveite nossa super promoção de férias.</p>
-                <p>Os melhores pacotes para os melhores destinos.</p>
-                <p>Condições especiais que cabem no seu bolso.</p>
-                <p>Não fique de fora dessa.</p>
+                <p>Conheça esse paraíso trocipal</p>
+                <p>com a facilidade de ajustar esse pacote de acordo</p>
+                <p>com a sua necessidade</p>
+                <label class="label">Monte seu pacote</label><br>
+                <div class="form">
+                    <label class="label">Quantidade de dias:</label>
+                    <input type="number" id="days"><br>
+                    <label class="label">Quantidade de adultos:</label>
+                    <input type="number" id="adults"><br>
+                    <label class="label">Quantidade de crianças:</label>
+                    <input type="number" id="kids"><br>
+                </div>
+                <button class="botao" onclick="calculaPacoteFernando()">Calcular</button>
+                <p id="resultado">Valor do pacote</p>
             </div>
             <div class="column">
                 <div class="card">
