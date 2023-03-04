@@ -25,6 +25,7 @@ body {
 
 .navbar-links {
     height: 100%;
+    margin-right: 50px;
 }
 
 .navbar-links ul {
@@ -232,9 +233,16 @@ input{
 }
 
 .botao {
-    color: #585050;
+    color: #252222;
     font-size: 15px;
     text-align: center;
     margin-left: 50px;
     border-radius: 5px;
+    background-color: #e2f1f3b2;
+
+}
+
+.info{
+    font-size: 12px;
+
 }

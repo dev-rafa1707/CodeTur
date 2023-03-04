@@ -11,6 +11,7 @@ function calculaPacoteDisney() {
     var kids = document.getElementById('kids');
     var kidsNum = parseInt(kids.value);
     var valor = (daysNum * diaria) + (adultsNum * passagemAdulto) + (kidsNum * passagemKids);
+    valor = valor.toFixed(2)
     var p = document.getElementById('resultado');
     p.innerHTML = 'Valor do seu pacote R$: ' + valor
 }
@@ -27,6 +28,7 @@ function calculaPacoteDubai() {
     var kids = document.getElementById('kids');
     var kidsNum = parseInt(kids.value);
     var valor = (daysNum * diaria) + (adultsNum * passagemAdulto) + (kidsNum * passagemKids);
+    valor = valor.toFixed(2)
     var p = document.getElementById('resultado');
     p.innerHTML = 'Valor do seu pacote R$: ' + valor
 }
@@ -42,6 +44,7 @@ function calculaPacoteFernando() {
     var kids = document.getElementById('kids');
     var kidsNum = parseInt(kids.value);
     var valor = (daysNum * diaria) + (adultsNum * passagemAdulto) + (kidsNum * passagemKids);
+    valor = valor.toFixed(2)
     var p = document.getElementById('resultado');
     p.innerHTML = 'Valor do seu pacote R$: ' + valor
 }
@@ -57,6 +60,7 @@ function calculaPacoteMachu() {
     var kids = document.getElementById('kids');
     var kidsNum = parseInt(kids.value);
     var valor = (daysNum * diaria) + (adultsNum * passagemAdulto) + (kidsNum * passagemKids);
+    valor = valor.toFixed(2)
     var p = document.getElementById('resultado');
     p.innerHTML = 'Valor do seu pacote R$: ' + valor
 }

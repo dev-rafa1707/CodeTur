@@ -28,7 +28,9 @@ app.get("/machu",(req,res)=>{
     res.sendFile(__dirname+"/machu.html")
 })
 
-
+app.get("/sobre",(req,res)=>{
+    res.sendFile(__dirname+"/sobre.html")
+})
 
 
 app.listen(3000,()=>{
